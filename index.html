@@ -10,8 +10,10 @@
      <script src="https://cdn.tailwindcss.com"></script>
      <!-- font awesome -->
     <script src="https://kit.fontawesome.com/d7b7563d24.js" crossorigin="anonymous"></script>
-<!-- manrope google font -->
-
+<!--  google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
 
 <!-- tailwind custom color -->
 <script>
@@ -26,12 +28,54 @@
     }
 </script>
 <style>
-    .font-manrope {
-        font-family: 'Manrope', sans-serif;
+    .font-Lato {
+        font-family: 'Lato', sans-serif;
     }
 </style>
 </head>
-<body>
-    
+<body class="font-Lato">
+    <header class="md:container md:mx-auto">
+<nav>
+   
+    <div class="navbar bg-red-500 mt-4 mx-20 rounded-lg">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost btn-circle">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+            </label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Homepage</a></li>
+              
+              <li><a>About Us </a></li>
+              <li><a>Shop</a></li>
+              <li><a>All Fruits</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="navbar-center flex">
+            <img src="images/logo.png" alt="">
+          <a class="btn btn-ghost normal-case text-white text-xl">Fruit Burst</a>
+        </div>
+        <div class="navbar-end">
+            <div class="form-control">
+                <input type="text" placeholder="Search here..." class="input input-bordered w-96 rounded-4xl md:w-auto" />
+              </div>
+          <button class="btn btn-ghost btn-circle">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+          </button>
+          
+        </div>
+      </div>
+
+
+
+</nav>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
